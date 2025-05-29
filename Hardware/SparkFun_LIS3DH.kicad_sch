@@ -4454,13 +4454,14 @@
 		)
 		(uuid "7d39fd15-6c4b-4bbe-b4be-fc36cde95261")
 	)
-	(text "Close Jumper to Change Address to 0x18\n"
+	(text "Close Jumper to Change Address to 0x18\nKeep Open for SPI"
 		(exclude_from_sim no)
-		(at 136.144 49.276 0)
+		(at 115.316 50.546 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "7dc181b9-e83c-4706-9497-fab7a0cd878e")
 	)
