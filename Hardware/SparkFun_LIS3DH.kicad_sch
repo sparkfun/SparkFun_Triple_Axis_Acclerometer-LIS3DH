@@ -4692,7 +4692,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 140.97) (xy 101.6 140.97)
+			(xy 99.06 140.97) (xy 101.6 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4782,7 +4782,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 135.89) (xy 101.6 135.89)
+			(xy 100.33 135.89) (xy 101.6 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4972,7 +4972,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 135.89) (xy 99.06 142.24)
+			(xy 100.33 135.89) (xy 100.33 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5002,7 +5002,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 138.43) (xy 101.6 138.43)
+			(xy 99.06 138.43) (xy 101.6 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5850,7 +5850,7 @@
 	)
 	(global_label "~{CS}"
 		(shape input)
-		(at 97.79 138.43 180)
+		(at 99.06 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5860,7 +5860,7 @@
 		)
 		(uuid "d0285809-a796-4d89-90a7-bbf8426969d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.3253 138.43 0)
+			(at 93.5953 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +5894,7 @@
 	)
 	(global_label "ADDR{slash}SDO"
 		(shape input)
-		(at 97.79 140.97 180)
+		(at 99.06 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5904,7 +5904,7 @@
 		)
 		(uuid "fc792a08-0c59-494f-9c98-4945dda3bd35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.7657 140.97 0)
+			(at 86.0357 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6502,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 99.06 142.24 0)
+		(at 100.33 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6510,7 +6510,7 @@
 		(dnp no)
 		(uuid "4fff4685-a4ca-4b13-b3d9-d4f1d1f9bef9")
 		(property "Reference" "#PWR0107"
-			(at 99.06 148.59 0)
+			(at 100.33 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6519,7 +6519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 146.05 0)
+			(at 100.33 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 142.24 0)
+			(at 100.33 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,7 +6536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 142.24 0)
+			(at 100.33 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 142.24 0)
+			(at 100.33 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
