@@ -1544,7 +1544,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:Conn_01x02"
+		(symbol "SparkFun-Connector:Conn_01x01"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1560,15 +1560,15 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:1x02"
+			(property "Footprint" "SparkFun-Connector:1x01"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1578,7 +1578,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -8.89 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1587,7 +1587,7 @@
 				)
 			)
 			(property "Description" "Basic 0.1\" PTH"
-				(at 0 -11.43 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1613,10 +1613,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x01_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(end 1.27 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1636,17 +1636,6 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
@@ -1658,24 +1647,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4174,6 +4145,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 132.08) (xy 100.33 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e796aea-f9ae-4c25-b9d8-1aa222eb2837")
+	)
+	(wire
+		(pts
 			(xy 93.98 66.04) (xy 96.52 66.04)
 		)
 		(stroke
@@ -4181,6 +4162,16 @@
 			(type default)
 		)
 		(uuid "0ff0ced8-8e59-4a09-bc13-8d2db727ab0a")
+	)
+	(wire
+		(pts
+			(xy 100.33 129.54) (xy 101.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150ff87e-d1ec-4b23-bf98-d7b1356a9317")
 	)
 	(wire
 		(pts
@@ -4201,6 +4192,16 @@
 			(type default)
 		)
 		(uuid "20930478-14a0-4442-885b-5b6dc1786f37")
+	)
+	(wire
+		(pts
+			(xy 100.33 132.08) (xy 100.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274dca03-61fa-4f75-8612-f05b7534ee24")
 	)
 	(bus
 		(pts
@@ -4304,16 +4305,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 140.97) (xy 100.33 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "644a81e1-5b94-44f3-9854-a27405806680")
-	)
-	(wire
-		(pts
 			(xy 68.58 69.85) (xy 67.31 69.85)
 		)
 		(stroke
@@ -4351,16 +4342,6 @@
 			(type default)
 		)
 		(uuid "6d0addab-9e40-497c-b6b3-8a0fc5bfa3b5")
-	)
-	(wire
-		(pts
-			(xy 100.33 138.43) (xy 101.6 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d29cfc5-8eaa-4e2d-bdfd-62c6a85139a9")
 	)
 	(bus
 		(pts
@@ -4577,16 +4558,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 140.97) (xy 100.33 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4533f5c-a749-4132-a7fd-eee013a0cfd0")
-	)
-	(wire
-		(pts
 			(xy 67.31 134.62) (xy 64.77 134.62)
 		)
 		(stroke
@@ -4666,28 +4637,6 @@
 		)
 		(uuid "ff566654-0172-495a-a28f-5e8a5eb41f96")
 	)
-	(global_label "INT1"
-		(shape input)
-		(at 100.33 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0fe693e3-c99a-4c8a-a2a1-7ad9ebadcda2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.2324 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape bidirectional)
 		(at 96.52 60.96 0)
@@ -4706,6 +4655,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT1"
+		(shape input)
+		(at 100.33 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43dfe790-6491-4c82-af05-fa3744b4bbd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.2324 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4960,6 +4931,72 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:Conn_01x01")
+		(at 106.68 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17188624-dabe-4273-a153-48860c23185e")
+		(property "Reference" "J3"
+			(at 105.664 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 105.41 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:1x01"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Basic 0.1\" PTH"
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08fe2b20-2636-41b6-a6d6-cebce3a3767d")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5495,6 +5532,71 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 100.33 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "585b03c9-56ce-4b58-b236-8012ad3d784f")
+		(property "Reference" "#PWR0123"
+			(at 100.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "870814b7-af98-4db1-89cd-aa7c9a294108")
+		)
+		(instances
+			(project "SparkFun_LIS3DH_Mini"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Jumper:SolderJumper_3_Bridged123")
 		(at 210.82 124.46 180)
 		(unit 1)
@@ -5788,6 +5890,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:Conn_01x01")
+		(at 106.68 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6949fbf4-e0fb-4142-ae81-8b1996ff13ac")
+		(property "Reference" "J4"
+			(at 105.664 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 105.156 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:1x01"
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Basic 0.1\" PTH"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "214a7869-e7af-4baa-96e7-6a4e4f4f9ccc")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Capacitor:10uF_0402_6.3V_20%")
 		(at 52.07 64.77 0)
 		(unit 1)
@@ -5878,77 +6046,6 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 100.33 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f9c6994-9c44-43c1-bbbd-c8ccb94fd868")
-		(property "Reference" "#PWR0123"
-			(at 100.33 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e2b1227-5d1f-4c99-976b-ac240a8a8fb2")
-		)
-		(instances
-			(project "SparkFun_ESP32_Qwiic_Pro_Mini"
-				(path "/1559d418-8eab-4cd5-99bd-b96fa1947de8"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-			(project "SparkFun Indoor Air Quality Sensor - SCD41 SEN55"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -6977,75 +7074,6 @@
 			(project "SparkFun Indoor Air Quality Sensor - SCD41 SEN55"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x02")
-		(at 106.68 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4e2920f-54cc-4955-87ec-ce3878322f44")
-		(property "Reference" "J1"
-			(at 112.268 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 112.014 141.224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:1x02"
-			(at 106.68 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Basic 0.1\" PTH"
-			(at 106.68 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7e9dfd9-bccf-4762-8967-9a1d3429ca16")
-		)
-		(pin "2"
-			(uuid "73eb9934-053a-4274-bddb-898ee1f26e70")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J1")
 					(unit 1)
 				)
 			)
