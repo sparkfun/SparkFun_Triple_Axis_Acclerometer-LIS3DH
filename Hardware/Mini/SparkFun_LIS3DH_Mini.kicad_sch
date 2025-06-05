@@ -2874,7 +2874,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-LED:LED_Red_0603"
+		(symbol "SparkFun-LED:LED_Red_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2901,7 +2901,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Red"
+			(property "Footprint" "SparkFun-LED:LED_0402_1005Metric"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -2910,7 +2910,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
+			(property "Datasheet" "https://www.sunledusa.com/products/spec/XZMDK68W-2.pdf"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -2928,7 +2928,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "DIO-17976"
+			(property "PROD_ID" "DIO-25000"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -2955,7 +2955,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Red_0603_0_1"
+			(symbol "LED_Red_0402_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -3017,7 +3017,7 @@
 					)
 				)
 			)
-			(symbol "LED_Red_0603_1_1"
+			(symbol "LED_Red_0402_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -5560,85 +5560,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-LED:LED_Red_0603")
-		(at 210.82 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50fd615d-ccb5-48c4-b08c-2b3e879551d1")
-		(property "Reference" "D1"
-			(at 213.36 69.7864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Red"
-			(at 213.36 72.3264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Red"
-			(at 218.44 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
-			(at 220.98 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 223.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "DIO-17976"
-			(at 215.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "135eb658-6fbb-4d60-8dcd-8b89006da7a9")
-		)
-		(pin "2"
-			(uuid "ce7fba0a-df2b-42bd-9736-53f5c7e0dcdc")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Capacitor:0.1uF_0402_10V_10%")
 		(at 55.88 64.77 0)
 		(unit 1)
@@ -7477,6 +7398,85 @@
 			(project "SparkFun_VEML7700"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-LED:LED_Red_0402")
+		(at 210.82 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cecbd5fd-2513-44a4-92f9-cbfc1152bc0a")
+		(property "Reference" "D1"
+			(at 213.36 69.7864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 213.36 72.3264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SparkFun-LED:LED_0402_1005Metric"
+			(at 218.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sunledusa.com/products/spec/XZMDK68W-2.pdf"
+			(at 220.98 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 223.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-25000"
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cd3f5bb-98b8-43aa-a7e4-c24f88a166c4")
+		)
+		(pin "2"
+			(uuid "446d2721-c0f6-4234-b0a1-329f58955e93")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "D1")
 					(unit 1)
 				)
 			)
