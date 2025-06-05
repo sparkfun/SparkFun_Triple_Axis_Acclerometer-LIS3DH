@@ -1544,7 +1544,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:Conn_01x01"
+		(symbol "SparkFun-Connector:Conn_01x01_PTH_1x1mm"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1560,7 +1560,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x01"
+			(property "Value" "PTH_1x1mm"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1568,7 +1568,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:1x01"
+			(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1586,8 +1586,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Basic 0.1\" PTH"
-				(at 0 -10.16 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1595,7 +1595,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun connector"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1613,7 +1613,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x01_1_1"
+			(symbol "Conn_01x01_PTH_1x1mm_1_1"
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -1.27)
@@ -2036,12 +2036,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:TestPoint_1.0mm"
+		(symbol "SparkFun-Connector:TestPoint_0.75mm"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.762)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2056,7 +2056,7 @@
 					)
 				)
 			)
-			(property "Value" "1.0mm"
+			(property "Value" "0.75mm"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2065,7 +2065,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -2101,7 +2101,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_1.0mm_0_1"
+			(symbol "TestPoint_0.75mm_0_1"
 				(circle
 					(center 0 3.302)
 					(radius 0.762)
@@ -2114,7 +2114,7 @@
 					)
 				)
 			)
-			(symbol "TestPoint_1.0mm_1_1"
+			(symbol "TestPoint_0.75mm_1_1"
 				(pin passive line
 					(at 0 0 90)
 					(length 2.54)
@@ -4064,9 +4064,9 @@
 		)
 		(uuid "7d39fd15-6c4b-4bbe-b4be-fc36cde95261")
 	)
-	(text "Close Jumper to Change Address to 0x18\n"
+	(text "Close \"ADDR\" Jumper to Change Address to 0x18\n"
 		(exclude_from_sim no)
-		(at 115.316 50.546 0)
+		(at 106.68 50.546 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5141,72 +5141,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x01")
-		(at 106.68 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17188624-dabe-4273-a153-48860c23185e")
-		(property "Reference" "J3"
-			(at 105.664 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 105.41 140.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:1x01"
-			(at 106.68 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Basic 0.1\" PTH"
-			(at 106.68 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08fe2b20-2636-41b6-a6d6-cebce3a3767d")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Aesthetic:SparkFun_Logo")
 		(at 213.36 167.64 0)
 		(unit 1)
@@ -5426,6 +5360,72 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:Conn_01x01_PTH_1x1mm")
+		(at 106.68 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bf64dee-62a1-44f0-9dad-ea66efbe8308")
+		(property "Reference" "J5"
+			(at 105.664 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTH_1x1mm"
+			(at 105.918 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
+			(at 106.68 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1845e70-6da1-4ff9-a0b1-fd77958722e9")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5657,72 +5657,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
-		(at 33.02 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53013826-ac90-436e-a224-16e6ea5aa749")
-		(property "Reference" "TP3"
-			(at 38.862 134.62 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.0mm"
-			(at 29.21 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
-			(at 26.67 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point"
-			(at 22.86 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f831de7-d877-4b27-b937-35c7202fbf41")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 100.33 137.16 0)
 		(unit 1)
@@ -5788,138 +5722,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
-		(at 33.02 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5988b8d1-57ab-4a1a-a6db-f8ca686f72b6")
-		(property "Reference" "TP4"
-			(at 38.862 137.16 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.0mm"
-			(at 29.21 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
-			(at 26.67 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point"
-			(at 22.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd520d5e-699c-4aff-b60d-e7e3c223aa4e")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
-		(at 33.02 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5be52066-b111-439e-a4dd-cef5c1e5265c")
-		(property "Reference" "TP2"
-			(at 39.116 132.08 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.0mm"
-			(at 29.21 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
-			(at 26.67 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point"
-			(at 22.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f81ef46-6478-4e2c-ad90-df4c9ad7c1a4")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 31.75 138.43 0)
 		(unit 1)
@@ -5979,6 +5781,72 @@
 			(project "SparkFun_LIS3DH_Mini"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
+		(at 33.02 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fea1bf7-bb1d-4734-996d-d063098848da")
+		(property "Reference" "TP8"
+			(at 38.862 137.16 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.75mm"
+			(at 29.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
+			(at 26.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 22.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ea2426e-ee0a-4d30-87d3-86288e2f408d")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -6272,72 +6140,6 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x01")
-		(at 106.68 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6949fbf4-e0fb-4142-ae81-8b1996ff13ac")
-		(property "Reference" "J4"
-			(at 105.664 129.032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 105.156 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:1x01"
-			(at 106.68 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Basic 0.1\" PTH"
-			(at 106.68 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "214a7869-e7af-4baa-96e7-6a4e4f4f9ccc")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6764,16 +6566,16 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
 		(at 33.02 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "902ef7ca-78f0-4315-a314-0f45b21d4689")
-		(property "Reference" "TP1"
-			(at 39.37 129.54 90)
+		(uuid "a00810dd-a173-4c4a-a8d8-68c175c70568")
+		(property "Reference" "TP5"
+			(at 38.862 129.54 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6781,7 +6583,7 @@
 				)
 			)
 		)
-		(property "Value" "1.0mm"
+		(property "Value" "0.75mm"
 			(at 29.21 129.54 0)
 			(effects
 				(font
@@ -6790,7 +6592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
 			(at 26.67 129.54 0)
 			(effects
 				(font
@@ -6818,12 +6620,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "56dea741-35b4-486c-94df-c142862e7e90")
+			(uuid "0ea2426e-ee0a-4d30-87d3-86288e2f408d")
 		)
 		(instances
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "TP1")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7088,6 +6890,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
+		(at 33.02 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b48e250d-02af-4b42-bbf9-5eecee61787c")
+		(property "Reference" "TP6"
+			(at 38.862 132.08 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.75mm"
+			(at 29.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
+			(at 26.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 22.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ea2426e-ee0a-4d30-87d3-86288e2f408d")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
 		(at 210.82 58.42 90)
 		(unit 1)
@@ -7152,6 +7020,72 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:Conn_01x01_PTH_1x1mm")
+		(at 106.68 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1a870f2-a77c-4da1-a677-8a904fda61c5")
+		(property "Reference" "J1"
+			(at 105.41 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTH_1x1mm"
+			(at 105.156 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
+			(at 106.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1845e70-6da1-4ff9-a0b1-fd77958722e9")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7801,6 +7735,72 @@
 			(project "SparkFun_LIS3DH_Mini"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
+		(at 33.02 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb307151-be12-493a-bdeb-8ec5b3d77180")
+		(property "Reference" "TP7"
+			(at 38.862 134.62 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.75mm"
+			(at 29.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
+			(at 26.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 22.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ea2426e-ee0a-4d30-87d3-86288e2f408d")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
