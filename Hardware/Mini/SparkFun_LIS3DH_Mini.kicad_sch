@@ -4054,6 +4054,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Testpoints"
+		(exclude_from_sim no)
+		(at 137.414 172.72 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "625219a2-7840-4309-85ed-7aeb8d47c45b")
+	)
 	(text "Triple Axis Accelerometer - LIS3DH"
 		(exclude_from_sim no)
 		(at 84.074 25.146 0)
@@ -4245,7 +4255,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 135.89) (xy 100.33 135.89)
+			(xy 101.6 139.7) (xy 100.33 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4265,7 +4275,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 133.35) (xy 101.6 133.35)
+			(xy 100.33 137.16) (xy 101.6 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4285,7 +4295,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 128.27) (xy 31.75 134.62)
+			(xy 137.16 182.88) (xy 137.16 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4305,7 +4315,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 129.54) (xy 30.48 129.54)
+			(xy 138.43 184.15) (xy 135.89 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4315,7 +4325,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 135.89) (xy 100.33 137.16)
+			(xy 100.33 139.7) (xy 100.33 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4393,9 +4403,19 @@
 		)
 		(uuid "45f051cd-ea52-4f71-bcd0-febab8ecfad9")
 	)
+	(polyline
+		(pts
+			(xy 114.3 165.1) (xy 158.75 165.1)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "52a04434-32a2-4189-9f19-6248015ed426")
+	)
 	(wire
 		(pts
-			(xy 31.75 137.16) (xy 31.75 138.43)
+			(xy 137.16 191.77) (xy 137.16 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4445,7 +4465,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 137.16) (xy 31.75 137.16)
+			(xy 138.43 191.77) (xy 137.16 191.77)
 		)
 		(stroke
 			(width 0)
@@ -4485,7 +4505,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 134.62) (xy 31.75 134.62)
+			(xy 138.43 189.23) (xy 137.16 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4542,6 +4562,16 @@
 			(type default)
 		)
 		(uuid "80030358-0cc1-4e18-bc2e-4172aa1ee80b")
+	)
+	(polyline
+		(pts
+			(xy 114.3 203.835) (xy 114.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "84039417-92da-4cd3-bbed-3ef807db2926")
 	)
 	(polyline
 		(pts
@@ -4677,7 +4707,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 132.08) (xy 30.48 132.08)
+			(xy 138.43 186.69) (xy 135.89 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4799,7 +4829,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 30.48 132.08 180)
+		(at 135.89 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4809,7 +4839,7 @@
 		)
 		(uuid "1b35df44-0308-4bdd-b0b6-7f0de47a2e66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.8154 132.08 0)
+			(at 128.2254 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4873,7 @@
 	)
 	(global_label "INT1"
 		(shape input)
-		(at 100.33 133.35 180)
+		(at 100.33 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4853,7 +4883,7 @@
 		)
 		(uuid "43dfe790-6491-4c82-af05-fa3744b4bbd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.2324 133.35 0)
+			(at 93.2324 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +4917,7 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 30.48 129.54 180)
+		(at 135.89 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4897,7 +4927,7 @@
 		)
 		(uuid "5ecaa017-95ab-4495-af7c-56032137ca55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.8759 129.54 0)
+			(at 128.2859 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5397,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:Conn_01x01_PTH_1x1mm")
-		(at 106.68 135.89 0)
+		(at 106.68 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5375,7 +5405,7 @@
 		(dnp no)
 		(uuid "2bf64dee-62a1-44f0-9dad-ea66efbe8308")
 		(property "Reference" "J5"
-			(at 105.664 138.43 0)
+			(at 105.664 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,7 +5414,7 @@
 			)
 		)
 		(property "Value" "PTH_1x1mm"
-			(at 105.918 140.462 0)
+			(at 105.918 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +5423,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
-			(at 106.68 143.51 0)
+			(at 106.68 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5432,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 140.97 0)
+			(at 106.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 135.89 0)
+			(at 106.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5688,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 100.33 137.16 0)
+		(at 100.33 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5666,7 +5696,7 @@
 		(dnp no)
 		(uuid "585b03c9-56ce-4b58-b236-8012ad3d784f")
 		(property "Reference" "#PWR0123"
-			(at 100.33 143.51 0)
+			(at 100.33 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5705,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 140.97 0)
+			(at 100.33 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 137.16 0)
+			(at 100.33 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 137.16 0)
+			(at 100.33 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 137.16 0)
+			(at 100.33 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5753,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 31.75 138.43 0)
+		(at 137.16 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5731,7 +5761,7 @@
 		(dnp no)
 		(uuid "5f85512d-5f1e-45e7-a948-fe23d2ab3d52")
 		(property "Reference" "#PWR0125"
-			(at 31.75 144.78 0)
+			(at 137.16 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,7 +5770,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 142.24 0)
+			(at 137.16 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5748,7 +5778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 138.43 0)
+			(at 137.16 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +5787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 138.43 0)
+			(at 137.16 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 138.43 0)
+			(at 137.16 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +5818,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
-		(at 33.02 137.16 270)
+		(at 138.43 191.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5796,7 +5826,7 @@
 		(dnp no)
 		(uuid "5fea1bf7-bb1d-4734-996d-d063098848da")
 		(property "Reference" "TP8"
-			(at 38.862 137.16 90)
+			(at 144.272 191.77 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5805,7 +5835,7 @@
 			)
 		)
 		(property "Value" "0.75mm"
-			(at 29.21 137.16 0)
+			(at 134.62 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5844,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
-			(at 26.67 137.16 0)
+			(at 132.08 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +5853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 137.16 0)
+			(at 130.81 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +5862,7 @@
 			)
 		)
 		(property "Description" "Test Point"
-			(at 22.86 137.16 0)
+			(at 128.27 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +6597,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
-		(at 33.02 129.54 270)
+		(at 138.43 184.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6575,7 +6605,7 @@
 		(dnp no)
 		(uuid "a00810dd-a173-4c4a-a8d8-68c175c70568")
 		(property "Reference" "TP5"
-			(at 38.862 129.54 90)
+			(at 144.272 184.15 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6584,7 +6614,7 @@
 			)
 		)
 		(property "Value" "0.75mm"
-			(at 29.21 129.54 0)
+			(at 134.62 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +6623,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
-			(at 26.67 129.54 0)
+			(at 132.08 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,7 +6632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 129.54 0)
+			(at 130.81 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,7 +6641,7 @@
 			)
 		)
 		(property "Description" "Test Point"
-			(at 22.86 129.54 0)
+			(at 128.27 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6620,7 +6650,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ea2426e-ee0a-4d30-87d3-86288e2f408d")
+			(uuid "0ea2426e-ee0a-4d30-87d3-86288e2f408e")
 		)
 		(instances
 			(project ""
@@ -6891,7 +6921,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
-		(at 33.02 132.08 270)
+		(at 138.43 186.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6899,7 +6929,7 @@
 		(dnp no)
 		(uuid "b48e250d-02af-4b42-bbf9-5eecee61787c")
 		(property "Reference" "TP6"
-			(at 38.862 132.08 90)
+			(at 144.272 186.69 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6908,7 +6938,7 @@
 			)
 		)
 		(property "Value" "0.75mm"
-			(at 29.21 132.08 0)
+			(at 134.62 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6917,7 +6947,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
-			(at 26.67 132.08 0)
+			(at 132.08 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,7 +6956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 132.08 0)
+			(at 130.81 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,7 +6965,7 @@
 			)
 		)
 		(property "Description" "Test Point"
-			(at 22.86 132.08 0)
+			(at 128.27 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +6974,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ea2426e-ee0a-4d30-87d3-86288e2f408d")
+			(uuid "0ea2426e-ee0a-4d30-87d3-86288e2f408f")
 		)
 		(instances
 			(project ""
@@ -7027,7 +7057,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:Conn_01x01_PTH_1x1mm")
-		(at 106.68 133.35 0)
+		(at 106.68 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7035,7 +7065,7 @@
 		(dnp no)
 		(uuid "c1a870f2-a77c-4da1-a677-8a904fda61c5")
 		(property "Reference" "J1"
-			(at 105.41 128.524 0)
+			(at 105.41 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +7074,7 @@
 			)
 		)
 		(property "Value" "PTH_1x1mm"
-			(at 105.156 131.064 0)
+			(at 105.156 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +7083,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
-			(at 106.68 140.97 0)
+			(at 106.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +7092,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 138.43 0)
+			(at 106.68 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7101,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 133.35 0)
+			(at 106.68 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,7 +7110,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a1845e70-6da1-4ff9-a0b1-fd77958722e9")
+			(uuid "a1845e70-6da1-4ff9-a0b1-fd77958722ea")
 		)
 		(instances
 			(project ""
@@ -7677,7 +7707,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 31.75 128.27 0)
+		(at 137.16 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7685,7 +7715,7 @@
 		(dnp no)
 		(uuid "f1ce2ca1-45e4-489c-b4e3-67004d170938")
 		(property "Reference" "#PWR0116"
-			(at 31.75 132.08 0)
+			(at 137.16 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +7724,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 31.75 124.714 0)
+			(at 137.16 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +7732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 128.27 0)
+			(at 137.16 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,7 +7741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 128.27 0)
+			(at 137.16 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,7 +7750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 31.75 128.27 0)
+			(at 137.16 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +7772,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
-		(at 33.02 134.62 270)
+		(at 138.43 189.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7750,7 +7780,7 @@
 		(dnp no)
 		(uuid "fb307151-be12-493a-bdeb-8ec5b3d77180")
 		(property "Reference" "TP7"
-			(at 38.862 134.62 90)
+			(at 144.272 189.23 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7759,7 +7789,7 @@
 			)
 		)
 		(property "Value" "0.75mm"
-			(at 29.21 134.62 0)
+			(at 134.62 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +7798,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
-			(at 26.67 134.62 0)
+			(at 132.08 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +7807,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 134.62 0)
+			(at 130.81 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +7816,7 @@
 			)
 		)
 		(property "Description" "Test Point"
-			(at 22.86 134.62 0)
+			(at 128.27 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7795,7 +7825,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ea2426e-ee0a-4d30-87d3-86288e2f408d")
+			(uuid "0ea2426e-ee0a-4d30-87d3-86288e2f4090")
 		)
 		(instances
 			(project ""
