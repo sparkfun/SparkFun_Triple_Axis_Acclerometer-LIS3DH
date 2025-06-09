@@ -5,12 +5,11 @@
 	(uuid "e3dd3ae4-244d-4cba-9cca-5d2abf83f29a")
 	(paper "USLetter")
 	(title_block
-		(title "SparkFun Ambient Light Sensor - VEML7700")
+		(title "SparkFun Triple Axis Accelerometer - LIS3DH")
 		(date "2025-04-24")
 		(rev "v10")
 		(company "SparkFun Electronics")
-		(comment 1 "Original Design by: Paul Clark")
-		(comment 2 "Designed by: Elias Santistevan")
+		(comment 1 "Designed by: Elias Santistevan")
 	)
 	(lib_symbols
 		(symbol "SparkFun-Aesthetic:Fiducial_0.5mm"
