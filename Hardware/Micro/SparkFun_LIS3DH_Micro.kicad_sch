@@ -4053,6 +4053,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Plated through holes can fit\n22AWG wire or smaller."
+		(exclude_from_sim no)
+		(at 107.442 127.762 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "619551d4-4d37-46cb-a5c4-fb97f45524ba")
+	)
 	(text "Testpoints"
 		(exclude_from_sim no)
 		(at 137.414 172.72 0)
