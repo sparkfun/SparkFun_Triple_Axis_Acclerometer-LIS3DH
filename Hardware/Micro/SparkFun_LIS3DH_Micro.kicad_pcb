@@ -538,11 +538,12 @@
 			)
 		)
 	)
-	(footprint "SparkFun-Connector:1x01_PTH_1x1mm"
+	(footprint "SparkFun-Connector:1x01_1x1mm"
 		(layer "F.Cu")
 		(uuid "32e86325-0d05-4bd6-91d6-53c21673e547")
 		(at 128.346 104.456 180)
 		(descr "Plated Through Hole - No Silk Outline\n\nSpecifications:\n\n• Pin count:1\n• Pin pitch:0.1mm\n• Hole Size: .7mm\n• Annular Ring: 1.2mm\n\nMade for the small  https://www.sparkfun.com/products/18221  1mm Pitch Headers.")
+		(tags "SparkFun")
 		(property "Reference" "J5"
 			(at 0 -0.889 180)
 			(unlocked yes)
@@ -572,7 +573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b89f6a69-fb55-42d0-9053-e8ca367c50c7")
@@ -584,7 +585,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "831454c0-792d-4d9d-bca6-838f6493cbdd")
@@ -599,6 +600,17 @@
 		(path "/2bf64dee-62a1-44f0-9dad-ea66efbe8308")
 		(sheetname "/")
 		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
+		(fp_rect
+			(start -1 -1)
+			(end 1 1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "bbfd7de1-fa80-4e1d-a8e7-6b4c37e9ad41")
+		)
 		(fp_poly
 			(pts
 				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
@@ -609,7 +621,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "87019442-794c-4c94-a93e-00999b46bcdc")
+			(uuid "87d648b6-c0e6-464c-8b5b-cb0e02051823")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -626,11 +638,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "SparkFun-Connector:1x01_PTH_1x1mm"
+	(footprint "SparkFun-Connector:1x01_1x1mm"
 		(layer "F.Cu")
 		(uuid "496c33c8-231a-4a74-958b-9b97e3782621")
 		(at 128.346 109.536 180)
 		(descr "Plated Through Hole - No Silk Outline\n\nSpecifications:\n\n• Pin count:1\n• Pin pitch:0.1mm\n• Hole Size: .7mm\n• Annular Ring: 1.2mm\n\nMade for the small  https://www.sparkfun.com/products/18221  1mm Pitch Headers.")
+		(tags "SparkFun")
 		(property "Reference" "J1"
 			(at 0 -0.889 180)
 			(unlocked yes)
@@ -660,7 +673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "54074086-5fa7-444e-9938-ae5a2fd21a56")
@@ -672,7 +685,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d1357d1-f8fb-47c0-8c5e-32aca18f12d6")
@@ -687,6 +700,17 @@
 		(path "/c1a870f2-a77c-4da1-a677-8a904fda61c5")
 		(sheetname "/")
 		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
+		(fp_rect
+			(start -1 -1)
+			(end 1 1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e05bf41b-3dab-4555-9874-73eed4c0d745")
+		)
 		(fp_poly
 			(pts
 				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
@@ -697,7 +721,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "c774a62e-8662-4888-aa09-ace2cd85ffea")
+			(uuid "8633d7bd-8c27-42b7-a3b1-6187e85d70c5")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -1128,7 +1152,7 @@
 			)
 		)
 	)
-	(footprint "SparkFun-LED:LED_0402_1005Metric"
+	(footprint "SparkFun-LED:LED_0402_1005Metric_Red"
 		(layer "F.Cu")
 		(uuid "6130a5f1-7ed6-425e-ab8b-62a420e40c70")
 		(at 131.2035 104.1385)
@@ -1181,12 +1205,12 @@
 				)
 			)
 		)
-		(property "PROD_ID" "DIO-25000"
+		(property "PROD_ID" "DIO-16757"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a1a5de2-3bce-4ca8-ba86-bed63f715dc0")
+			(uuid "85c1dab7-d452-447b-99c1-62baaea70f04")
 			(effects
 				(font
 					(size 1 1)
@@ -1207,7 +1231,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4b78c5c3-5cc5-4410-90a5-3ecc96bb9be2")
+			(uuid "64304adb-d39a-417b-9d33-1125ff42a079")
 		)
 		(fp_line
 			(start -0.93 -0.47)
@@ -1217,7 +1241,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "96c828b1-8580-4aeb-8d5b-e598f7218c04")
+			(uuid "ddffb71e-bae0-4f89-9134-588335267dea")
 		)
 		(fp_line
 			(start -0.93 0.47)
@@ -1227,7 +1251,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "02df8de5-534d-4d1d-aee4-6267b3a3a3e5")
+			(uuid "11955537-8af0-49cc-82fd-bcd0bacd07f8")
 		)
 		(fp_line
 			(start 0.93 -0.47)
@@ -1237,7 +1261,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "847d480d-c073-4ff0-9bd4-05c694da8fd7")
+			(uuid "8cb01b2b-f446-4e8d-beb2-f19cd0bf2809")
 		)
 		(fp_line
 			(start 0.93 0.47)
@@ -1247,7 +1271,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "53b2f3d5-15c9-4594-8f1e-7cf72033f288")
+			(uuid "e81ec029-265e-4b08-b5aa-10cbd8b9bfc7")
 		)
 		(fp_line
 			(start -0.5 -0.25)
@@ -1257,7 +1281,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d67e6985-33cb-4cc9-874c-c8507052d801")
+			(uuid "920095f5-66f1-43b2-a751-bde265cc81bc")
 		)
 		(fp_line
 			(start -0.5 0.25)
@@ -1267,7 +1291,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8fcb3264-724e-4ebd-a192-4e950e48214e")
+			(uuid "b7dc2f7d-4abd-4ca2-86e3-4da397fc48e5")
 		)
 		(fp_line
 			(start -0.4 0.25)
@@ -1277,7 +1301,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1e01a07d-80de-4896-9df8-bb5237f521e6")
+			(uuid "76687776-ad6b-49a0-8089-b5a592513e3b")
 		)
 		(fp_line
 			(start -0.3 0.25)
@@ -1287,7 +1311,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "047841a5-b990-4b58-975d-c5833158cc50")
+			(uuid "f7bdeec0-0e46-414a-a536-679105bf4afd")
 		)
 		(fp_line
 			(start 0.5 -0.25)
@@ -1297,7 +1321,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "22f8b816-fdeb-4761-8165-17f9285c021e")
+			(uuid "dece8932-f4e8-41ed-815c-8e64e518546f")
 		)
 		(fp_line
 			(start 0.5 0.25)
@@ -1307,7 +1331,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "70bd4148-8f39-4586-89d2-271ad6de6147")
+			(uuid "ebc73ec1-e53c-4f6b-8de2-590fc76a338e")
 		)
 		(pad "1" smd roundrect
 			(at -0.485 0)
@@ -1330,7 +1354,7 @@
 			(uuid "d6b4da2d-b5b6-4daa-9aa4-b1759e847022")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl"
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/LED/LED_0402_1005Metric_Red.step"
 			(offset
 				(xyz 0 0 0)
 			)

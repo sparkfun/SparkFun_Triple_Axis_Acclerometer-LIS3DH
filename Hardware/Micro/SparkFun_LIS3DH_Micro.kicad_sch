@@ -12,6 +12,119 @@
 		(comment 1 "Designed by: Elias Santistevan")
 	)
 	(lib_symbols
+		(symbol "Conn_01x01_PTH_1x1mm_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTH_1x1mm"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Connector:1x01_1x1mm"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_PTH_1x1mm_1_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-Aesthetic:Fiducial_0.5mm"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1567,7 +1680,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
+			(property "Footprint" "SparkFun-Connector:1x01_1x1mm"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -2900,7 +3013,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-LED:LED_0402_1005Metric"
+			(property "Footprint" "SparkFun-LED:LED_0402_1005Metric_Red"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -2927,7 +3040,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "DIO-25000"
+			(property "PROD_ID" "DIO-16757"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -5431,7 +5544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
+		(property "Footprint" "SparkFun-Connector:1x01_1x1mm"
 			(at 106.68 147.32 0)
 			(effects
 				(font
@@ -7065,6 +7178,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x01_PTH_1x1mm_1")
 		(lib_id "SparkFun-Connector:Conn_01x01_PTH_1x1mm")
 		(at 106.68 137.16 0)
 		(unit 1)
@@ -7091,7 +7205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
+		(property "Footprint" "SparkFun-Connector:1x01_1x1mm"
 			(at 106.68 144.78 0)
 			(effects
 				(font
@@ -7404,7 +7518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0402_1005Metric"
+		(property "Footprint" "SparkFun-LED:LED_0402_1005Metric_Red"
 			(at 218.44 71.12 0)
 			(effects
 				(font
@@ -7431,7 +7545,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "DIO-25000"
+		(property "PROD_ID" "DIO-16757"
 			(at 215.9 71.12 0)
 			(effects
 				(font
