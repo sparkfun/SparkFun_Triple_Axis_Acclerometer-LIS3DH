@@ -204,7 +204,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/3602d096-a2c9-48c7-93d8-ae094ffbafd9")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -251,6 +251,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -262,6 +263,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -403,7 +405,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0d241116-173c-4cf2-bf2d-dd01133733fa")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -596,7 +598,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2bf64dee-62a1-44f0-9dad-ea66efbe8308")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(fp_poly
 			(pts
 				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
@@ -684,7 +686,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c1a870f2-a77c-4da1-a677-8a904fda61c5")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(fp_poly
 			(pts
 				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
@@ -786,7 +788,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/611ccfdd-2b0a-4447-8606-56d006468691")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -993,7 +995,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ffefe745-593d-4b12-8170-fc651390e789")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -1195,7 +1197,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/cecbd5fd-2513-44a4-92f9-cbfc1152bc0a")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.4)
@@ -1398,7 +1400,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/3c7aca20-7739-4ab5-bf9c-7eade66994b3")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -1529,7 +1531,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/51fd187f-1134-4683-a643-0eb154ae5f26")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -1662,16 +1664,16 @@
 			)
 		)
 	)
-	(footprint "SparkFun-Sensor:LGA-16-3X3"
+	(footprint "SparkFun-Sensor:ST_LGA-16_3x3mm_P0.5mm_5x3"
 		(layer "F.Cu")
 		(uuid "7edf2053-86d0-4cd1-b6d5-d69f07f49568")
 		(at 132.156 106.996 180)
-		(descr "16-Pin Land Grid Array (LGA) (3 x 3 mm)\n\nhttps://www.sparkfun.com/datasheets/Sensors/Accelerometer/LIS331HH.pdf Datasheet\n\nSpecifications:\n\n• Pin Count: 16\n• Area: 3.0 x 3.0 x 1.0 mm\n• Pitch: 0.5 mm\n\nDevices Using:\n\n• LIS331\n• LIS3DH")
+		(descr "ST 16-Pin Land Grid Array (LGA) (3 x 3 mm)")
+		(tags "SparkFun")
 		(property "Reference" "U1"
 			(at 0 -1.905 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "770b48a6-6ee3-41e5-b865-f22dbc76a805")
 			(effects
 				(font
@@ -1686,7 +1688,6 @@
 			(at 0 1.905 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "0d4d03a5-68e0-4957-98ce-81bfa6803230")
 			(effects
 				(font
@@ -1698,7 +1699,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/en/mems-and-sensors/lis3dh.html"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "733ae8c2-cfe7-433c-b51a-ac94c5584ff9")
@@ -1710,7 +1711,7 @@
 			)
 		)
 		(property "Description" "The LIS3DH has dynamically user-selectable full scales of ±2g/±4g/±8g/±16g and is capable of measuring accelerations with output data rates from 1 Hz to 5.3 kHz."
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bb8393d2-5127-4339-a593-efa50e7538bb")
@@ -1726,7 +1727,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe6ded44-3070-4b60-9735-5240ca857a92")
+			(uuid "5b26fff4-6899-4e06-a0dc-a33122926c72")
 			(effects
 				(font
 					(size 1 1)
@@ -1736,7 +1737,7 @@
 		)
 		(path "/c690a15d-4519-40b6-9027-7a2a8165a791")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(fp_line
 			(start 1.7 1.3722)
 			(end 1.7 1.6524)
@@ -1745,7 +1746,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ccf717a3-cadc-45dd-88dd-1d1ddf2056b2")
+			(uuid "f576b287-87ad-4aea-97b5-d8c7d91a3bde")
 		)
 		(fp_line
 			(start 1.654 -1.7)
@@ -1755,7 +1756,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "84f3e8c4-1047-4305-b893-3a9d01abfeea")
+			(uuid "8eb26835-50f0-4ad6-8288-7261ca4ddd8c")
 		)
 		(fp_line
 			(start 1.192 1.6524)
@@ -1765,7 +1766,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cbdc32cc-8c74-416b-9690-6035db74775a")
+			(uuid "8bf4523b-6c64-4cfa-b1e5-0b91b37b3324")
 		)
 		(fp_line
 			(start 1.146 -1.7)
@@ -1775,7 +1776,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1215d47d-8f04-43ef-95b6-f48a0abd0c8d")
+			(uuid "74840571-31c4-4866-8972-f0175357bb22")
 		)
 		(fp_line
 			(start -1.146 -1.7)
@@ -1785,7 +1786,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6ad95fe0-ead3-48fd-9377-6c9e102888ff")
+			(uuid "c780e426-7457-484e-9f8d-00efaf6cc950")
 		)
 		(fp_line
 			(start -1.654 -1.7)
@@ -1795,7 +1796,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3594f0c3-f493-4f4f-b863-dc5ac5e0b6bd")
+			(uuid "a31f2327-9098-4b9c-85c8-30307c477260")
 		)
 		(fp_line
 			(start -1.7 1.6524)
@@ -1805,7 +1806,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ca82b56f-21e9-498e-b0d7-61c5481d8624")
+			(uuid "360ed55f-6cfc-411a-9b6f-21192958374f")
 		)
 		(fp_line
 			(start -1.7 1.3722)
@@ -1815,18 +1816,18 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bfca3a17-8e19-4397-8ee4-d69d1b1a1c2a")
+			(uuid "e0966235-fe92-41cb-b5f8-c3cc371a9725")
 		)
 		(fp_circle
-			(center -2.2 -1.6)
-			(end -2.073 -1.6)
+			(center -2.2 -1.5)
+			(end -2.3 -1.5)
 			(stroke
-				(width 0.254)
+				(width 0.2)
 				(type solid)
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "d2f20730-beb4-4c3d-acdf-37545fd239b3")
+			(uuid "c70615d3-8626-400e-9ad1-36ef4a727445")
 		)
 		(fp_rect
 			(start -1.9 -1.85)
@@ -1837,7 +1838,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "7dbc0c9e-0cdb-40d1-be8b-6120e3c66bb6")
+			(uuid "fac9cc7a-e228-40dd-8f23-15bfba49cefe")
 		)
 		(fp_line
 			(start 1.5 1.5)
@@ -1847,7 +1848,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4da34977-aef9-4a48-bc40-e9c6e1ffe8fb")
+			(uuid "68e80e41-54ac-4cbb-acf9-fe60a621a6f4")
 		)
 		(fp_line
 			(start 1.5 -1.5)
@@ -1857,7 +1858,67 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e0787fd6-6279-4218-a331-419c5bcdb54f")
+			(uuid "6cb18915-c855-4df1-a459-cc44fbb1aed7")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0.2 0.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "b5621711-aa49-497e-8d86-f9819ef5b999")
+		)
+		(fp_line
+			(start 0 1)
+			(end -0.2 0.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "9c2665ce-d63c-4b58-9d73-8193a5b24a9e")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "901bc701-e1fc-4f3e-b05d-a53823208e3d")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "d46958bd-a7b7-4a3a-9349-7887ceb3af59")
+		)
+		(fp_line
+			(start -1 0)
+			(end -0.8 0.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "e87b548f-28f6-4749-b79f-940ca4aa510c")
+		)
+		(fp_line
+			(start -1 0)
+			(end -0.8 -0.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "6d7f8b8c-8f39-4385-83a4-48f24ca047e6")
 		)
 		(fp_line
 			(start -1.5 1.5)
@@ -1867,7 +1928,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f67f48fc-454c-46e1-86bc-e8e5d1cbcb40")
+			(uuid "8382ea79-dd54-4c22-ad02-279963811ee0")
 		)
 		(fp_line
 			(start -1.5 -1.5)
@@ -1877,7 +1938,65 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c8ccc8a2-ce97-4c43-8806-f5b0929fb628")
+			(uuid "b3a75c33-a973-4a9f-8e8b-ebbf9cd4d0b3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end -0.05 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "416d38a2-66c5-4d39-8bc2-2eab71603f39")
+		)
+		(fp_circle
+			(center 0 0)
+			(end -0.25 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3f4a474e-1986-42ea-9f99-258ed441f286")
+		)
+		(fp_text user "Z"
+			(at 0.4 -0.35 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "37400f73-da60-4d1d-9110-5adbe3709e42")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.0625)
+				)
+			)
+		)
+		(fp_text user "X"
+			(at -0.8 -0.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3d3b40f2-b1e6-47b3-8ff1-950c362ea359")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.0625)
+				)
+			)
+		)
+		(fp_text user "Y"
+			(at 0.25 0.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "efba28b8-23d2-4282-b673-ab7633ea2e45")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.0625)
+				)
+			)
 		)
 		(pad "1" smd rect
 			(at -1.4 -1)
@@ -2085,7 +2204,7 @@
 			(net 0)
 			(net_name "")
 			(layers "F.Cu" "F.SilkS")
-			(uuid "573f3bea-a126-4c16-b926-280359091dfa")
+			(uuid "236d83fc-9877-465a-ba31-d060cfbed5ff")
 			(name "MEMs Keepout")
 			(hatch edge 0.5)
 			(connect_pads
@@ -2115,7 +2234,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Sensor/LIS3DH_LGA-16_3x3x1mm.step"
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Semiconductor-Standard/LGA-16_3x3x1mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2198,7 +2317,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2a8d4aa5-ea0b-43a8-a90c-3fecba534279")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3 0.35)
@@ -2420,7 +2539,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/62917f2a-8e07-4a72-b269-6f26767cf989")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -2567,6 +2686,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2578,6 +2698,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2723,7 +2844,7 @@
 		)
 		(path "/61301b78-3cf8-402e-ace7-cf63f2f7db5b")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_text user " https://creativecommons.org/licenses/by-sa/4.0/"
 			(at 0 1.27 0)
@@ -2849,7 +2970,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6e8dd4db-2c62-4ccc-b1bc-478cd7e620b4")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -3041,7 +3162,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/7c6696af-f8ea-4dc6-9a32-3bca233b1d03")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.794 0)
@@ -3355,7 +3476,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/264a4209-260e-44cd-bc90-dd22b301bf9d")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(fp_line
 			(start 1.1176 -0.762)
 			(end 1.1176 0.762)
@@ -3537,7 +3658,7 @@
 		(property ki_fp_filters "SolderJumper*Bridged123*")
 		(path "/61064102-3340-40da-a47f-b534f627af5e")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2,3")
 		(fp_poly
@@ -3777,7 +3898,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/fb307151-be12-493a-bdeb-8ec5b3d77180")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end -0.3 -0.3)
@@ -3864,7 +3985,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/5fea1bf7-bb1d-4734-996d-d063098848da")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end -0.3 -0.3)
@@ -3953,7 +4074,7 @@
 		(property ki_fp_filters "SolderJumper*Bridged*")
 		(path "/b8ac0351-59c1-42a6-9084-e9e990e98a2e")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_poly
@@ -4479,7 +4600,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/ecaab292-da05-4b4f-b1f6-747ad8f43456")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -4574,7 +4695,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/b34b89d0-b9bd-477f-829d-749a87b7e2fb")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -4940,7 +5061,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b48e250d-02af-4b42-bbf9-5eecee61787c")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end -0.3 -0.3)
@@ -5370,7 +5491,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/a00810dd-a173-4c4a-a8d8-68c175c70568")
 		(sheetname "/")
-		(sheetfile "SparkFun_LIS3DH_Mini.kicad_sch")
+		(sheetfile "SparkFun_LIS3DH_Micro.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end -0.3 -0.3)
