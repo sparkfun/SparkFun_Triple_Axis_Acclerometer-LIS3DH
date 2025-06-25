@@ -5,12 +5,11 @@
 	(uuid "e3dd3ae4-244d-4cba-9cca-5d2abf83f29a")
 	(paper "USLetter")
 	(title_block
-		(title "SparkFun Ambient Light Sensor - VEML7700")
+		(title "SparkFun Triple Axis Accelerometer - LIS3DH (Qwiic)")
 		(date "2025-04-24")
 		(rev "v10")
 		(company "SparkFun Electronics")
-		(comment 1 "Original Design by: Paul Clark")
-		(comment 2 "Designed by: Elias Santistevan")
+		(comment 1 "Designed by: Elias Santistevan")
 	)
 	(lib_symbols
 		(symbol "SparkFun-Aesthetic:Fiducial_0.5mm"
@@ -4544,12 +4543,6 @@
 		(uuid "3591c929-25f6-4ebe-8ede-99af6cffc581")
 	)
 	(junction
-		(at 67.31 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "421cd929-bf18-46be-ab7b-edb8762efe2e")
-	)
-	(junction
 		(at 134.62 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4698,16 +4691,6 @@
 			(type default)
 		)
 		(uuid "1a26ac10-652f-495b-94c9-d15a4e41f9e9")
-	)
-	(wire
-		(pts
-			(xy 68.58 81.28) (xy 67.31 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20930478-14a0-4442-885b-5b6dc1786f37")
 	)
 	(wire
 		(pts
@@ -5142,16 +5125,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 81.28) (xy 67.31 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aad05927-adde-4805-a584-760702a790fd")
-	)
-	(wire
-		(pts
 			(xy 52.07 58.42) (xy 55.88 58.42)
 		)
 		(stroke
@@ -5324,7 +5297,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 69.85) (xy 67.31 81.28)
+			(xy 67.31 69.85) (xy 67.31 83.82)
 		)
 		(stroke
 			(width 0)
@@ -8420,7 +8393,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "LIS3DH"
@@ -8430,7 +8402,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SparkFun-Sensor:ST_LGA-16_3x3mm_P0.5mm_5x3"

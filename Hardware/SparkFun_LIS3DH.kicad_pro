@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|124431609|85518285|15867ade-bc87-4922-9129-417303565686|d6e3a13c-269f-419f-bd67-6bdd2ca889a7",
+          ""
+        ],
+        [
+          "courtyards_overlap|128592551|108271000|e254a3c9-978b-4305-9daf-52c05dd7cad6|ffe26ee7-14ce-41fb-9f5d-76780b8a8b57",
+          ""
+        ],
+        [
+          "courtyards_overlap|143337725|87892498|99135a68-903a-46c3-bbd5-1c3acd51553f|cbf61e40-db52-4965-b40a-d76299bae0d9",
+          ""
+        ],
+        [
+          "courtyards_overlap|143581000|109374907|581204c0-620a-4656-b079-613aedc55c22|99b50fa0-d5f3-4fcd-92b0-07048f7d7e1c",
+          ""
+        ],
+        [
+          "courtyards_overlap|148551353|109636063|581204c0-620a-4656-b079-613aedc55c22|61aa0ed3-558f-4c6d-9e62-dd57c48bd5c1",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -132,7 +153,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
