@@ -6978,70 +6978,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Aesthetic:Fiducial_0.5mm")
-		(at 259.08 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b34b89d0-b9bd-477f-829d-749a87b7e2fb")
-		(property "Reference" "FID1"
-			(at 259.08 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Fiducial_0.5mm"
-			(at 259.08 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
-			(at 259.08 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 259.08 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SparkFun Indoor Air Quality Sensor - SCD41 SEN55"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "FID1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
 		(at 138.43 186.69 270)
 		(unit 1)
@@ -7316,30 +7252,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c690a15d-4519-40b6-9027-7a2a8165a791")
 		(property "Reference" "U1"
-			(at 70.866 56.388 0)
+			(at 72.39 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "LIS3DH"
-			(at 84.836 54.864 0)
+			(at 87.884 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SparkFun-Sensor:ST_LGA-16_3x3mm_P0.5mm_5x3"
-			(at 80.518 99.822 0)
+			(at 80.518 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,7 +7279,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/en/mems-and-sensors/lis3dh.html"
-			(at 81.28 92.964 0)
+			(at 81.28 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,7 +7288,7 @@
 			)
 		)
 		(property "Description" "The LIS3DH has dynamically user-selectable full scales of ±2g/±4g/±8g/±16g and is capable of measuring accelerations with output data rates from 1 Hz to 5.3 kHz."
-			(at 82.042 96.266 0)
+			(at 82.042 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,7 +7297,7 @@
 			)
 		)
 		(property "PROD_ID" "IC-13419"
-			(at 81.534 103.378 0)
+			(at 81.534 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,70 +7690,6 @@
 			(project "SparkFun Indoor Air Quality Sensor - SCD41 SEN55"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Aesthetic:Fiducial_0.5mm")
-		(at 259.08 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecaab292-da05-4b4f-b1f6-747ad8f43456")
-		(property "Reference" "FID2"
-			(at 259.08 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Fiducial_0.5mm"
-			(at 259.08 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
-			(at 259.08 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 259.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SparkFun Indoor Air Quality Sensor - SCD41 SEN55"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "FID2")
 					(unit 1)
 				)
 			)
