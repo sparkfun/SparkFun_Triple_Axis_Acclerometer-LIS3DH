@@ -115,6 +115,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -3863,7 +3864,7 @@
 	(footprint "kibuzzard-685C52CC"
 		(layer "B.Cu")
 		(uuid "2c41e83b-7109-4768-a296-74c117bb45af")
-		(at 132.093033 105.572004 180)
+		(at 132.029 105.572004 180)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJGcmVkZHlTcGFyay1SZWd1bGFyIiwgIkhlaWdodEN0cmwiOiAwLjksICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMS41LCAiTXVsdGlMaW5lVGV4dCI6ICJZIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogMS41LCAiUGFkZGluZ0xlZnRDdHJsIjogNi4wLCAiUGFkZGluZ1JpZ2h0Q3RybCI6IDEuNSwgIlBhZGRpbmdUb3BDdHJsIjogMS41LCAiV2lkdGhDdHJsIjogMS4wLCAiYWR2YW5jZWRDaGVja2JveCI6IHRydWUsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogdHJ1ZSwgImxpbmVvdmVyU3R5bGVDaG9pY2UiOiAiU3F1YXJlIiwgImxpbmVvdmVyVGhpY2tuZXNzQ3RybCI6IDF9")
 		(property "Reference" "kibuzzard-685C52CC"
@@ -3934,7 +3935,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 78)
 			(uuid "ee7eaa16-1f85-4af7-80f6-a688b6b949d7")
 		)
 		(embedded_fonts no)
@@ -4324,7 +4324,7 @@
 	(footprint "kibuzzard-685C52E1"
 		(layer "B.Cu")
 		(uuid "5791410a-9a2a-4760-bdb0-7fae6b98c14c")
-		(at 132.858462 108.747004 180)
+		(at 133.045 108.139 180)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJGcmVkZHlTcGFyay1SZWd1bGFyIiwgIkhlaWdodEN0cmwiOiAwLjksICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMS41LCAiTXVsdGlMaW5lVGV4dCI6ICJaIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogMS41LCAiUGFkZGluZ0xlZnRDdHJsIjogNi4wLCAiUGFkZGluZ1JpZ2h0Q3RybCI6IDEuNSwgIlBhZGRpbmdUb3BDdHJsIjogMS41LCAiV2lkdGhDdHJsIjogMS4wLCAiYWR2YW5jZWRDaGVja2JveCI6IHRydWUsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogdHJ1ZSwgImxpbmVvdmVyU3R5bGVDaG9pY2UiOiAiU3F1YXJlIiwgImxpbmVvdmVyVGhpY2tuZXNzQ3RybCI6IDF9")
 		(property "Reference" "kibuzzard-685C52E1"
@@ -4395,7 +4395,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 78)
 			(uuid "a13695c6-2dc5-4369-b493-bc93cbf3fccb")
 		)
 		(embedded_fonts no)
@@ -5309,7 +5308,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 78)
 			(uuid "9ff0ad28-00bd-408f-be40-27adf846a9ae")
 		)
 		(embedded_fonts no)
@@ -5851,68 +5849,6 @@
 		(layer "B.SilkS")
 		(uuid "24883e90-5611-4fd3-852c-f1b4c34b8b08")
 	)
-	(gr_arc
-		(start 133.998033 106.534225)
-		(mid 134.3785 106.996)
-		(end 134.196003 107.565812)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "2714dd2a-fb34-48dd-85b8-9a9947308923")
-	)
-	(gr_line
-		(start 133.959214 106.558931)
-		(end 133.998033 106.839025)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "2b33ddcf-fd7e-4ca4-8368-5de8ab002c43")
-	)
-	(gr_line
-		(start 132.572238 106.372383)
-		(end 132.372433 106.178625)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "32ec846b-868f-4999-86be-b24c61c34247")
-	)
-	(gr_line
-		(start 132.858459 107.854239)
-		(end 132.651833 107.546013)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "39b95066-a07a-46ca-be48-8a92871c02d0")
-	)
-	(gr_line
-		(start 132.572238 106.372383)
-		(end 132.829633 106.280225)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "3b6d008f-993e-4a65-bf8d-aa89fa74f5b4")
-	)
-	(gr_arc
-		(start 132.572238 106.372383)
-		(mid 133.06277 105.920551)
-		(end 133.490033 106.432625)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "41d87a2f-e365-4747-9ad1-27cd26b57c4b")
-	)
 	(gr_line
 		(start 133.009408 106.680438)
 		(end 133.010005 105.214813)
@@ -5922,16 +5858,6 @@
 		)
 		(layer "B.SilkS")
 		(uuid "6132936e-13cf-4186-9d45-6b23d7884537")
-	)
-	(gr_line
-		(start 133.993414 106.524431)
-		(end 134.307453 106.442419)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "693a8744-063f-4472-a432-19d1b12d3ca9")
 	)
 	(gr_poly
 		(pts
@@ -5955,16 +5881,6 @@
 		(layer "B.SilkS")
 		(uuid "caa4304b-8f02-422a-9f6e-f9c3b0e39070")
 	)
-	(gr_line
-		(start 132.858459 107.876739)
-		(end 132.550233 108.025713)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "d71b5374-16fd-4101-837a-0f364bd31049")
-	)
 	(gr_poly
 		(pts
 			(xy 133.010005 105.214813) (xy 133.363033 105.567841) (xy 132.654861 105.567841) (xy 132.651833 105.564813)
@@ -5977,17 +5893,6 @@
 		(fill yes)
 		(layer "B.SilkS")
 		(uuid "dcb5f538-2645-4e22-adf0-3811d75350f4")
-	)
-	(gr_arc
-		(start 132.858459 107.854239)
-		(mid 132.193372 107.360282)
-		(end 132.474033 106.580813)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "e7f45cd1-4afa-48e1-884f-3e86f3d33d40")
 	)
 	(gr_circle
 		(center 133.009408 107.088813)
