@@ -116,6 +116,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -4527,6 +4528,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4538,6 +4540,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4629,6 +4632,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4640,6 +4644,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5542,6 +5547,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5553,6 +5559,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6346,7 +6353,7 @@
 	(footprint "kibuzzard-685C52E1"
 		(layer "F.Cu")
 		(uuid "eee78d33-0ee7-4fb4-9920-46c7e25f3df1")
-		(at 130.722875 90.060928)
+		(at 130.722875 90.105)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJGcmVkZHlTcGFyay1SZWd1bGFyIiwgIkhlaWdodEN0cmwiOiAwLjksICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMS41LCAiTXVsdGlMaW5lVGV4dCI6ICJaIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogMS41LCAiUGFkZGluZ0xlZnRDdHJsIjogNi4wLCAiUGFkZGluZ1JpZ2h0Q3RybCI6IDEuNSwgIlBhZGRpbmdUb3BDdHJsIjogMS41LCAiV2lkdGhDdHJsIjogMS4wLCAiYWR2YW5jZWRDaGVja2JveCI6IHRydWUsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogdHJ1ZSwgImxpbmVvdmVyU3R5bGVDaG9pY2UiOiAiU3F1YXJlIiwgImxpbmVvdmVyVGhpY2tuZXNzQ3RybCI6IDF9")
 		(property "Reference" "kibuzzard-685C52E1"
@@ -6357,6 +6364,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6368,6 +6376,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6430,6 +6439,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6441,6 +6451,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9853,6 +9864,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9865,6 +9877,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11093,6 +11106,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11105,6 +11119,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11465,7 +11480,7 @@
 		(uuid "39b768a8-132a-4665-bd08-755647dc0d13")
 	)
 	(gr_line
-		(start 129.2985 90.1685)
+		(start 128.854 90.1685)
 		(end 127.261806 90.168017)
 		(stroke
 			(width 0.15)
@@ -11507,7 +11522,7 @@
 		(uuid "5a50a4c0-2a66-4427-a70f-2fc655c3ac7b")
 	)
 	(gr_line
-		(start 129.2985 90.187928)
+		(start 129.2985 90.596303)
 		(end 129.297903 92.061928)
 		(stroke
 			(width 0.15)
@@ -11572,7 +11587,7 @@
 		(uuid "c86e00da-259d-4de8-b8ad-5169f86f5230")
 	)
 	(gr_circle
-		(center 129.2985 90.1685)
+		(center 129.2985 90.187928)
 		(end 129.2985 90.060928)
 		(stroke
 			(width 0.15)
