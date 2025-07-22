@@ -1,41 +1,35 @@
-SparkFun <PRODUCT NAME>
+SparkFun Triple Axis Accelerometer Breakout - LIS3DH (Qwiic)
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+<table class="table table-hover table-striped table-bordered">
+  <tr align="center">
+   <td><a href="https://www.sparkfun.com/sparkfun-triple-axis-accelerometer-breakout-lis3dh.html"><img src="https://cdn.sparkfun.com/assets/parts/3/1/4/1/5/29528-Triple-Axis-Accelerometer-Breakout-Feature.jpg"></a></td> 
+   <td><a href="https://www.sparkfun.com/sparkfun-micro-triple-axis-accelerometer-breakout-lis3dh.html"><img src="https://cdn.sparkfun.com/assets/parts/3/1/4/1/6/29529-Micro-Triple-Axis-Accelerometer-Breakout-Feature.jpg"></a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://www.sparkfun.com/sparkfun-triple-axis-accelerometer-breakout-lis3dh.html">SparkFun Triple Axis Accelerometer Breakout - LIS3DH (Qwiic) <br />(SEN-29528)</a></td>
+    <td><a href="https://www.sparkfun.com/sparkfun-micro-triple-axis-accelerometer-breakout-lis3dh.html">SparkFun Micro Triple Axis Accelerometer Breakout - LIS3DH (Qwiic) <br />(SEN-29529)</a></td>
+  </tr>
+</table>
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
-
-<Basic description of the part.>
+The SparkFun Triple Axis Accelerometer Breakout - LIS3DH (Qwiic) and SparkFun Micro Triple Axis Accelerometer Breakout - LIS3DH (Qwiic) are Qwiic breakouts for the LIS3DH from STMicroelectronics<sup>&trade;</sup>. The LIS3DH is a smart, low-power, three-axis, capacitive micro-machined accelerometer with 12 bits of resolution that you can use to add translation detection to your project. These Qwiic breakouts let users easily and solderlessly integrate a precise 3-axis accelerometer into their project.
 
 Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[Arduino Library](https://github.com/sparkfun/SparkFun_LIS3DH_Arduino_Library)** - Arduino library for the SparkFun LIS3DH Breakouts.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lis3dh-hookup-guide)** - Basic hookup guide for the SparkFun LIS3DH Breakouts.
 
 Product Versions
 ----------------
-* [Part SKU](part URL) - Basic part and short description here
-* [Retail part SKU](retail URL) - Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [SEN-29528](https://www.sparkfun.com/sparkfun-triple-axis-accelerometer-breakout-lis3dh.html) - Standard 1"x1" Qwiic Breakout
+* [SEN-29529](https://www.sparkfun.com/sparkfun-micro-triple-axis-accelerometer-breakout-lis3dh.html) - Micro Qwiic Breakout
 
 License Information
 -------------------
@@ -49,5 +43,3 @@ If you have any questions or concerns on licensing, please contact technical sup
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
